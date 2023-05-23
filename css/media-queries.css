@@ -7,10 +7,36 @@
   }
 }
 @media screen and (max-width: 590px) {
+  body::before {
+    height: 35vh;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .main-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
   .grid-1 {
     grid-template-columns: 1fr;
   }
+
   .grid-2 {
     grid-template-columns: 1fr;
+  }
+
+  .navbar {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .nav-heading {
+    font-size: 1.5rem;
+  }
+
+  .horizontal-line {
+    display: block;
   }
 }
