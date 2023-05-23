@@ -1,0 +1,38 @@
+/* External style Sheets */
+@import url("/css/navbar.css");
+@import url("/css/grid-1.css");
+@import url("/css/grid-2.css");
+@import url("/css/media-queries.css");
+
+/* Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+/* Simple styling for the page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(230, 17%, 14%);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25vh;
+  background-color: hsl(232, 19%, 15%);
+  z-index: -1;
+}
+
+/* Modifying the main section */
+.main-container {
+  width: 95%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+

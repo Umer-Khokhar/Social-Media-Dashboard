@@ -1,0 +1,58 @@
+/* Second Grid title */
+.grid-title-2 h2 {
+    padding: 2.3rem 0 0.4rem 0;
+  }
+  
+  /* Grid--2 */
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    font-size: 14px;
+    margin: 1rem 0;
+  }
+  
+  /* Grid 2nd items all */
+  .grid-item-2 {
+    background-color: hsl(228, 28%, 20%);
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    border-radius: 5px;
+  }
+  /* Grid-2 upper info  */
+  .upper-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .upper-info p {
+    color: hsl(228, 34%, 66%);
+    font-weight: 600;
+  }
+  /* Grid-2 bottom info  */
+  .bottom-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .bottom-info > .no-of-views {
+    font-size: 1.8rem;
+  }
+  /* 2nd-Grid-Today-progress-section */
+  .progress-2 {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  /* Green progress-2 */
+  .progress-2 span {
+    color: hsl(163, 72%, 41%);
+  }
+  /* Red progress-2 */
+  .progress-2 .progress-red {
+    color: hsl(356, 69%, 56%);
+  }
