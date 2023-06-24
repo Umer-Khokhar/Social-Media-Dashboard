@@ -13,6 +13,7 @@
   text-align: center;
   font-size: 14px;
   position: relative;
+  cursor: pointer;
   border-radius: 5px;
 }
 
@@ -82,5 +83,16 @@
   background: hsl(348, 97%, 39%);
 }
 
+/* hover Effect  */
 
+.grid-1-item:hover {
+  background-color: hsl(229, 22%, 29%);
+}
 
+/* Dark mode  */
+.white-mode .grid-1-item {
+  background-color: hsl(227, 47%, 96%);
+}
+.white-mode .grid-1-item:hover {
+  background-color: hsl(222, 23%, 91%);
+}

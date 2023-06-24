@@ -20,6 +20,7 @@
     flex-direction: column;
     gap: 1.6rem;
     border-radius: 5px;
+    cursor: pointer;
   }
   /* Grid-2 upper info  */
   .upper-info {
@@ -55,4 +56,15 @@
   /* Red progress-2 */
   .progress-2 .progress-red {
     color: hsl(356, 69%, 56%);
+  }
+
+  .grid-item-2:hover {
+    background-color: hsl(229, 22%, 29%);
+  }
+
+  .white-mode .grid-item-2 {
+    background-color: hsl(227, 47%, 96%);
+  }
+  .white-mode .grid-item-2:hover {
+    background-color: hsl(225, 17%, 91%);
   }

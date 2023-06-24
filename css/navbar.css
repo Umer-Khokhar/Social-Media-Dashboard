@@ -19,4 +19,9 @@
     font-size: 14px;
     margin-top: 0.3rem;
   }
+  .right-side {
+    display: flex;
+    justify-content: space-around;
+    gap: .8rem;
+  }
   
